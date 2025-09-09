@@ -29,6 +29,14 @@ monthly_stock_summary)]
   P --> LOGS[(Run Logs & Metrics)]
 ```
 
+### 📸 Pipeline Screenshot
+
+Add a visual of the actual Talend pipeline for quick credibility.
+
+Place an exported PNG at `docs/images/pipeline_overview.png` then this will render:
+
+![Talend Pipeline Overview](docs/images/pipeline_overview.png)
+
 Key points:
 
 - Remote Engine Gen2 keeps database traffic local (no direct DB exposure to cloud).
@@ -167,14 +175,6 @@ LIMIT 10;
 - Volume anomaly detection (z-score)
 - Data freshness alerting (max month gap)
 - Export run metrics to dashboard (Grafana / Metabase)
-
----
-
-## 🧾 Resume / Portfolio Bullets
-
-- Built cloud–local hybrid ETL (Talend Remote Engine Gen2) ingesting multi‑ticker equity price data from S3 and publishing a monthly analytical fact table in PostgreSQL.
-- Implemented filename-driven enrichment, temporal normalization, and aggregate metrics (MAX/MIN/AVG) with recommended data quality validations.
-- Designed reproducible artifacts (DDL, transformation logic, quality checks) emphasizing idempotent design and secure on-prem execution path.
 
 ---
 
