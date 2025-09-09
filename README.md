@@ -31,10 +31,6 @@ monthly_stock_summary)]
 
 ### 📸 Pipeline Screenshot
 
-Add a visual of the actual Talend pipeline for quick credibility.
-
-Place an exported PNG at `docs/images/pipeline_overview.png` then this will render:
-
 ![Talend Pipeline Overview](docs/images/pipeline_overview.png)
 
 Key points:
